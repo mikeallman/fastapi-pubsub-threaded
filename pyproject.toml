@@ -4,13 +4,8 @@ version = "0.1.0"
 description = ""
 authors = ["Mike Allman <mike@allman.io>"]
 
-[[tool.poetry.source]]
-name = "artifactory"
-url = "https://artifactory.dunnhumby.com/artifactory/api/pypi/pypi-virtual-all/simple"
-default = true
-
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.8"
 fastapi = "^0.68.1"
 uvicorn = "^0.15.0"
 google-cloud-pubsub = "^2.8.0"
